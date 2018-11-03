@@ -909,6 +909,10 @@ form input[type="submit"]:hover{
         text-align: center;
     }
 
+    .advantages-item span{
+        font-size: 46px;
+    }
+
 
     .advantages-item svg{
         margin: 0 auto;
@@ -916,10 +920,11 @@ form input[type="submit"]:hover{
 
     .advantages-item p{
         padding-bottom: 0;
+        font-size: 24px;
     }
 
     .advantages-item a {
-        font-size: 18px;
+        font-size: 24px;
         display: block;
         position: static;
         margin: 0 auto;
@@ -939,6 +944,10 @@ form input[type="submit"]:hover{
         padding-top: 10%;
         padding-right: 0;
         padding-left: 0;
+        font-size: 24px;
+    }
+
+    .rules p{
         font-size: 20px;
     }
 
@@ -950,6 +959,14 @@ form input[type="submit"]:hover{
         display: flex;
         flex-direction: column;
         flex-wrap: wrap;
+    }
+
+    .vertical-content-first p{
+        font-size: 20px;
+    }
+
+    .vertical-content-second p{
+        font-size: 20px;
     }
 
     .red-container svg {
@@ -980,6 +997,15 @@ form input[type="submit"]:hover{
         margin: 0 auto;
         flex-wrap: wrap;
         text-align: center;
+    }
+
+    .foo-wrapper p{
+        font-size: 24px;
+
+    }
+
+    .foo-wrapper span{
+        font-size: 36px;
     }
 
     .foo-social span{
