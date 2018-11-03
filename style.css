@@ -920,11 +920,11 @@ form input[type="submit"]:hover{
 
     .advantages-item p{
         padding-bottom: 0;
-        font-size: 24px;
+        font-size: 32px;
     }
 
     .advantages-item a {
-        font-size: 24px;
+        font-size: 32px;
         display: block;
         position: static;
         margin: 0 auto;
@@ -948,7 +948,15 @@ form input[type="submit"]:hover{
     }
 
     .rules p{
-        font-size: 20px;
+        font-size: 24px;
+    }
+
+    .rules a{
+        font-size: 32px;
+    }
+
+    .fun-text p{
+        padding-bottom: 50px;
     }
 
     .item-title{
@@ -962,7 +970,7 @@ form input[type="submit"]:hover{
     }
 
     .vertical-content-first p{
-        font-size: 20px;
+        font-size: 24px;
     }
 
     .vertical-content-second p{
@@ -1022,6 +1030,10 @@ form input[type="submit"]:hover{
         width: 50%;
         margin: 0 auto;
         margin-top: 5%;
+    }
+
+    .social-logo a{
+        opacity: 1;
     }
 
     .form-container{
