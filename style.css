@@ -35,9 +35,22 @@ header{
     align-content: center;
 }
 
+.header-nav-container:after{
+    content: "";
+    position: absolute;
+    background-color: black;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    opacity: 0.2;
+    z-index: 0;
+}
+
 .logo-container{
     margin-left: 3%;
     width: 25%;
+    z-index: 2;
 }
 
 .nav-container{
@@ -45,6 +58,7 @@ header{
     flex-grow: 1;
     justify-content: flex-end;
     align-items: center;
+    z-index: 2;
 }
 
 .nav-container a{
@@ -68,6 +82,7 @@ header{
     align-content: flex-end;
     flex-wrap: wrap;
     overflow: hidden;
+    z-index: 2;
 }
 
 .header-triangle{
@@ -94,6 +109,7 @@ header{
     flex-direction: row;
     text-transform: uppercase;
     color: white;
+    z-index: 2;
 }
 
 .main-title-text{
@@ -841,7 +857,6 @@ form input[type="submit"]:hover{
     }
 
     .logo-container{
-        z-index: 2;
         width: 100%;
         text-align: right;
     }
@@ -853,18 +868,6 @@ form input[type="submit"]:hover{
 
     .main-title{
         height: 30%;
-    }
-
-    .header-nav-container:after{
-        content: "";
-        position: absolute;
-        background-color: black;
-        top: 0;
-        left: 0;
-        width: 100%;
-        height: 100%;
-        opacity: 0.2;
-        z-index: 0;
     }
 
     .header-nav-container{
@@ -883,7 +886,6 @@ form input[type="submit"]:hover{
         margin-bottom: 5%;
         outline: 8px solid var(--green-color);
         opacity: 1;
-        z-index: 2;
     }
 
     .nav-container a:nth-child(2){
@@ -891,7 +893,6 @@ form input[type="submit"]:hover{
     }
 
     .main-title{
-        z-index: 2;
         align-items: center;
     }
 
