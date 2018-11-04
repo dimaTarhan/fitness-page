@@ -376,7 +376,6 @@ svg{
 
 .fun-img{
     height: 380px;
-    content: "";
     background: url("images/fun_img.png") center top;
     background-size: cover;
 }
