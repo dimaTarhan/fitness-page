@@ -733,11 +733,16 @@ form input[type="submit"]:hover{
 
 @media only screen  and (max-width:1023px) and (min-width: 768px){
     .width-container{
+        width: 100%;
+    }
+
+    .green_container .width-container .advantages{
         width: 90%;
+        margin: 0 auto;
     }
 
     .main-title-text{
-        width: 38%;
+        width: 50%;
     }
 
     .advantages{
@@ -755,23 +760,299 @@ form input[type="submit"]:hover{
     }
 
     .advantages-item a {
-        position: absolute;
-        bottom: 0;
-        left: 35%;
+        display: block;
+        margin: 0 auto;
+        text-align: center;
     }
+
+    .leaders-content{
+        padding-top: 40%;
+    }
+
     .leaders-text{
         width: 50%;
     }
 
-    .foo-social{
-        width: 300px;
+    .foo-wrapper{
+        width: 80%;
+        margin: 0 auto;
+        flex-wrap: wrap;
+        text-align: center;
     }
 
-    .social-logo a{
+    .foo-social{
+        width: 100%;
+        margin-top: 5%;
+        text-align: center;
+    }
+
+    .social-logo{
+        width: 50%;
+        margin: 0 auto;
+        margin-top: 5%;
+    }
+
+    .form-container{
+        margin-top: 5%;
+        justify-content: center;
+    }
+
+    form{
+        width: 80%;
+    }
+
+}
+
+@media only screen  and (max-width:767px) and (min-width: 480px){
+    .width-container{
+        width: 100%;
+    }
+
+    .green_container .width-container .advantages{
+        width: 90%;
+        margin: 0 auto;
+    }
+
+    .logo-container{
+        width: 100%;
+        text-align: right;
+    }
+
+    .logo-container img{
+        width: 30%;
+        padding-right: 5%;
+    }
+
+    .main-title{
+        height: 30%;
+    }
+
+    .header-nav-container{
+        flex-wrap: wrap;
+    }
+
+    .nav-container{
+        margin-top: 50%;
+        flex-wrap: wrap;
+        justify-content: center;
+    }
+
+    .nav-container a{
+        font-size: 50px;
+        font-weight: bold;
+        margin-bottom: 5%;
+        outline: 8px solid var(--green-color);
         opacity: 1;
     }
 
+    .nav-container a:nth-child(2){
+        margin-right: 0;
+    }
+
+    .main-title{
+        align-items: center;
+    }
+
+    .main-title-text{
+        width: 100%;
+    }
+
+    .main-title-text-first {
+        text-align: center;
+        font-size: 50px;
+    }
+
+    .main-title-text-second{
+        text-align: center;
+        font-size: 40px;
+        padding-right: 0;
+    }
+
+    .triangle-container{
+        display: none;
+    }
+
+    .advantages{
+        flex-wrap: wrap;
+    }
+
+    .advantages-item{
+        width: 100%;
+        margin-bottom: 10%;
+        text-align: center;
+    }
+
+    .advantages-item span{
+        font-size: 36px;
+    }
+
+
+    .advantages-item svg{
+        margin: 0 auto;
+    }
+
+    .advantages-item p{
+        padding-bottom: 0;
+        font-size: 26px;
+    }
+
+    .advantages-item a {
+        font-size: 26px;
+        display: block;
+        position: static;
+        margin: 0 auto;
+        text-align: center;
+    }
+
+    .rules-text, .vertical-item, .vertical-item-large, .involved-text, .eating-text{
+        width: 100%;
+        text-align: center;
+    }
+
+    .red-text{
+        padding-top: 10%;
+        padding-right: 0;
+        padding-left: 0;
+        font-size: 24px;
+    }
+
+    .rules-container{
+        flex-wrap: wrap;
+    }
+
+    .rules-image{
+        width: 100%;
+        height: 400px;
+        position: relative;
+    }
+
+    .absolute-logo-right{
+        width: 250px;
+    }
+
+    .absolute-logo-right p{
+        margin-top: 0;
+    }
+
+    .absolute-logo-left{
+        width: 280px;
+    }
+
+    .absolute-logo-left p{
+        margin-top: 0;
+    }
+
+    .rules p{
+        font-size: 24px;
+    }
+
+    .rules a{
+        font-size: 32px;
+    }
+
+    .fun-text p{
+        padding-bottom: 50px;
+    }
+
+    .item-title{
+        font-size: 46px;
+    }
+
+    .vertical-content-first, .vertical-content-second{
+        display: flex;
+        flex-direction: column;
+        flex-wrap: wrap;
+    }
+
+    .vertical-content-first p{
+        font-size: 24px;
+    }
+
+    .vertical-content-second p{
+        font-size: 20px;
+    }
+
+    .red-container svg {
+        display: none;
+    }
+
+    .vertical-item-text span{
+        padding-left: 0;
+        padding-right: 0;
+    }
+
+    .leaders{
+        display: flex;
+    }
+
+    .leaders-content{
+        width: 90%;
+        margin: auto;
+    }
+
+    .leaders-content span{
+        font-size: 30px;
+    }
+
+    .leaders-text{
+        width: 100%;
+        font-size: 20px;
+    }
+
+    .foo-wrapper{
+        width: 90%;
+        margin: 0 auto;
+        flex-wrap: wrap;
+        text-align: center;
+    }
+
+    .foo-wrapper p{
+        font-size: 24px;
+
+    }
+
+    .foo-wrapper span{
+        font-size: 36px;
+    }
+
+    .foo-social span{
+        font-size: 36px;
+    }
+
+
+    .foo-resources, .foo-about, .foo-social{
+        width: 100%;
+        margin-top: 5%;
+    }
+
+    .social-logo{
+        width: 80%;
+        margin: 0 auto;
+        margin-top: 5%;
+    }
+
+    .form-container{
+        margin-top: 5%;
+        justify-content: center;
+    }
+
+    form{
+        width: 90%;
+        flex-wrap: wrap;
+    }
+
+    form input{
+        width: 100%;
+        margin-bottom: 2%;
+        font-size: 18px;
+    }
+
+    form input[type="email"]{
+        width: 100%;
+    }
+
     form input[type="submit"]{
+        font-size: 18px;
         opacity: 1;
     }
 }
@@ -815,7 +1096,7 @@ form input[type="submit"]:hover{
     .advantages-item a {
         position: absolute;
         bottom: 0;
-        left: 35%;
+        left: 0;
     }
 
     .leaders-content{
