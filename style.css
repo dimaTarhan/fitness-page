@@ -1269,6 +1269,10 @@ form input[type="submit"]:hover{
         padding-bottom: 50px;
     }
 
+    .fun-text span{
+        padding-left: 0;
+    }
+
     .item-title{
         font-size: 46px;
     }
