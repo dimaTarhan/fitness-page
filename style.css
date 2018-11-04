@@ -1341,13 +1341,38 @@ form input[type="submit"]:hover{
     }
 
     .social-logo{
-        width: 50%;
+        width: 80%;
         margin: 0 auto;
         margin-top: 5%;
     }
 
     .social-logo a{
         opacity: 1;
+    }
+
+    .social-logo a img{
+        width: 200%;
+        height: 200%
+    }
+
+    .facebook-logo {
+        padding: 38px 55px 35px 48px;
+        background-color: #2e3192;
+    }
+
+    .twitter-logo{
+        padding: 42px 52px 35px 42px;
+        background-color: #00aeef;
+    }
+
+    .youtube-logo{
+        padding: 41px 56px 37px 39px;
+        background-color: #ed3123;
+    }
+
+    .liked-logo{
+        padding: 39px 55px 35px 46px;
+        background-color: #171a8f;
     }
 
     .form-container{
