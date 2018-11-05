@@ -798,6 +798,7 @@ form input[type="submit"]:hover{
 
 }
 
+/*
 @media only screen  and (max-width:767px) and (min-width: 480px){
     .width-container{
         width: 100%;
@@ -1051,95 +1052,9 @@ form input[type="submit"]:hover{
         opacity: 1;
     }
 }
+*/
 
-@media only screen  and (max-device-width:767px) and (min-device-width: 480px){
-    .width-container{
-        width: 100%;
-    }
-
-    .green_container .width-container .advantages{
-        width: 90%;
-        margin: 0 auto;
-    }
-
-    .logo-container img{
-        width: 90%;
-    }
-
-    .nav-container a{
-        font-size: 24px;
-    }
-
-    .main-title-text{
-        width: 38%;
-    }
-
-    .advantages{
-        flex-wrap: wrap;
-    }
-
-    .advantages-item{
-        width: 48%;
-        margin-bottom: 50px;
-        text-align: center;
-    }
-
-    .advantages-item svg{
-        margin: 0 auto;
-    }
-
-    .advantages-item a {
-        position: absolute;
-        bottom: 0;
-        left: 0;
-    }
-
-    .leaders-content{
-        padding-top: 40%;
-    }
-
-    .leaders-text{
-        width: 50%;
-    }
-
-    .foo-wrapper{
-        width: 80%;
-        margin: 0 auto;
-        flex-wrap: wrap;
-        text-align: center;
-    }
-
-    .foo-social{
-        width: 100%;
-        margin-top: 5%;
-        text-align: center;
-    }
-
-    .social-logo{
-        width: 40%;
-        margin: 0 auto;
-        margin-top: 5%;
-    }
-
-    .form-container{
-        margin-top: 5%;
-        justify-content: center;
-    }
-
-    form{
-        width: 80%;
-    }
-
-    .social-logo a{
-        opacity: 1;
-    }
-
-    form input[type="submit"]{
-        opacity: 1;
-    }
-}
-
-@media only screen  and (max-device-width:479px) {
+@media only screen  and (max-width:767px) and (min-width: 420px){
     .width-container{
         width: 100%;
     }
@@ -1155,33 +1070,35 @@ form input[type="submit"]:hover{
     }
 
     .logo-container img{
-        width: 50%;
-        padding-right: 5%;
+        width: 30%;
     }
 
     .main-title{
-        height: 30%;
+        height: 40%;
     }
 
     .header-nav-container{
+        margin: 0 auto;
+        width: 90%;
         flex-wrap: wrap;
+        margin-top: 3%;
     }
 
     .nav-container{
-        margin-top: 35%;
-        flex-wrap: wrap;
         justify-content: center;
+        text-align: center;
+        margin-top: 45%;
+        flex-wrap: wrap;
     }
 
     .nav-container a{
-        font-size: 80px;
-        font-weight: bold;
+        font-size: 18px;
         margin-bottom: 5%;
-        outline: 8px solid var(--green-color);
+        outline: 2px solid var(--green-color);
         opacity: 1;
     }
 
-    .nav-container a:nth-child(2){
+    .nav-container a:last-child{
         margin-right: 0;
     }
 
@@ -1195,31 +1112,28 @@ form input[type="submit"]:hover{
 
     .main-title-text-first {
         text-align: center;
-        font-size: 100px;
+        font-size: 32px;
     }
 
     .main-title-text-second{
         text-align: center;
-        font-size: 60px;
+        font-size: 24px;
         padding-right: 0;
-    }
-
-    .triangle-container{
-        display: none;
     }
 
     .advantages{
         flex-wrap: wrap;
+        padding-bottom: 0;
     }
 
     .advantages-item{
         width: 100%;
-        margin-bottom: 10%;
+        margin-bottom: 20%;
         text-align: center;
     }
 
     .advantages-item span{
-        font-size: 46px;
+        font-size: 26px;
     }
 
 
@@ -1229,19 +1143,15 @@ form input[type="submit"]:hover{
 
     .advantages-item p{
         padding-bottom: 0;
-        font-size: 32px;
+        font-size: 18px;
     }
 
     .advantages-item a {
-        font-size: 32px;
+        font-size: 18px;
         display: block;
         position: static;
         margin: 0 auto;
         text-align: center;
-    }
-
-    .rules-image, .lifestyleImg, .fun-img, .involved-img, .eatingImg{
-        display: none;
     }
 
     .rules-text, .vertical-item, .vertical-item-large, .involved-text, .eating-text{
@@ -1253,15 +1163,55 @@ form input[type="submit"]:hover{
         padding-top: 10%;
         padding-right: 0;
         padding-left: 0;
-        font-size: 24px;
+        font-size: 18px;
+    }
+
+    .rules-container{
+        flex-wrap: wrap;
+    }
+
+    .rules-image{
+        width: 100%;
+        height: 400px;
+        position: relative;
+    }
+
+    .absolute-logo-right{
+        width: 170px;
+    }
+
+    .absolute-logo-right p{
+        margin-top: 0;
+    }
+
+    .absolute-logo-left{
+        width: 280px;
+    }
+
+    .absolute-logo-left p{
+        margin-top: 0;
+    }
+
+    .rules{
+        margin-top: 50px;
     }
 
     .rules p{
-        font-size: 24px;
+        font-size: 16px;
     }
 
     .rules a{
-        font-size: 32px;
+        margin-right: 0;
+        padding-right: 0;
+        font-size: 18px;
+    }
+
+    .fun-img-dateText {
+        font-size: 12px;
+    }
+
+    .fun-img-dateText-svgContainer{
+        width: 50%;
     }
 
     .fun-text p{
@@ -1269,11 +1219,19 @@ form input[type="submit"]:hover{
     }
 
     .fun-text span{
-        padding-left: 0;
+        font-size: 32px;
     }
 
     .item-title{
-        font-size: 46px;
+        font-size: 32px;
+    }
+
+    .vertical-item-text .item-title{
+        margin-bottom: 3%;
+    }
+
+    .eating-title{
+        font-size: 30px;
     }
 
     .vertical-content-first, .vertical-content-second{
@@ -1283,11 +1241,283 @@ form input[type="submit"]:hover{
     }
 
     .vertical-content-first p{
-        font-size: 24px;
+        font-size: 16px;
     }
 
     .vertical-content-second p{
-        font-size: 20px;
+        font-size: 16px;
+    }
+
+    .vertical-item-text span{
+        padding-left: 0;
+        padding-right: 0;
+    }
+
+    .leaders{
+        display: flex;
+    }
+
+    .leaders-content{
+        width: 90%;
+        margin: auto;
+    }
+
+    .leaders-content span{
+        font-size: 26px;
+    }
+
+    .leaders-text{
+        width: 100%;
+        font-size: 16px;
+    }
+
+    .foo-wrapper{
+        width: 90%;
+        margin: 0 auto;
+        flex-wrap: wrap;
+        text-align: center;
+    }
+
+    .foo-wrapper p{
+        font-size: 16px;
+
+    }
+
+    .foo-wrapper span{
+        font-size: 26px;
+    }
+
+    .foo-social span{
+        font-size: 26px;
+    }
+
+
+    .foo-resources, .foo-about, .foo-social{
+        width: 100%;
+        margin-top: 5%;
+    }
+
+    .social-logo{
+        width: 70%;
+        margin: 0 auto;
+        margin-top: 5%;
+    }
+
+    .form-container{
+        margin-top: 5%;
+        justify-content: center;
+    }
+
+    form{
+        width: 90%;
+        flex-wrap: wrap;
+    }
+
+    form input{
+        width: 100%;
+        margin-bottom: 2%;
+        font-size: 16px;
+    }
+
+    form input[type="email"]{
+        width: 100%;
+    }
+
+    form input[type="submit"]{
+        font-size: 16px;
+        opacity: 1;
+    }
+}
+
+@media only screen  and (max-width:419px) {
+    .width-container{
+        width: 100%;
+    }
+
+    .green_container .width-container .advantages{
+        width: 90%;
+        margin: 0 auto;
+    }
+
+    .logo-container{
+        width: 100%;
+        text-align: right;
+    }
+
+    .logo-container img{
+        width: 30%;
+        padding-right: 5%;
+    }
+
+    .main-title{
+        height: 40%;
+    }
+
+    .header-nav-container{
+        flex-wrap: wrap;
+    }
+
+    .nav-container{
+        margin-top: 45%;
+        flex-wrap: wrap;
+        justify-content: center;
+    }
+
+    .nav-container a{
+        font-size: 26px;
+        margin-bottom: 5%;
+        outline: 2px solid var(--green-color);
+        opacity: 1;
+    }
+
+    .nav-container a:last-child, .nav-container a:nth-child(2){
+        margin-right: 0;
+    }
+
+    .main-title{
+        align-items: center;
+    }
+
+    .main-title-text{
+        width: 100%;
+    }
+
+    .main-title-text-first {
+        text-align: center;
+        font-size: 32px;
+    }
+
+    .main-title-text-second{
+        text-align: center;
+        font-size: 24px;
+        padding-right: 0;
+    }
+
+    .triangle-container{
+        display: none;
+    }
+
+    .advantages{
+        flex-wrap: wrap;
+        padding-bottom: 0;
+    }
+
+    .advantages-item{
+        width: 100%;
+        margin-bottom: 20%;
+        text-align: center;
+    }
+
+    .advantages-item span{
+        font-size: 26px;
+    }
+
+
+    .advantages-item svg{
+        margin: 0 auto;
+    }
+
+    .advantages-item p{
+        padding-bottom: 0;
+        font-size: 18px;
+    }
+
+    .advantages-item a {
+        font-size: 18px;
+        display: block;
+        position: static;
+        margin: 0 auto;
+        text-align: center;
+    }
+
+    .rules-text, .vertical-item, .vertical-item-large, .involved-text, .eating-text{
+        width: 100%;
+        text-align: center;
+    }
+
+    .red-text{
+        padding-top: 10%;
+        padding-right: 0;
+        padding-left: 0;
+        font-size: 18px;
+    }
+
+    .rules-container{
+        flex-wrap: wrap;
+    }
+
+    .rules-image{
+        width: 100%;
+        height: 400px;
+        position: relative;
+    }
+
+    .absolute-logo-right{
+        width: 170px;
+    }
+
+    .absolute-logo-right p{
+        margin-top: 0;
+    }
+
+    .absolute-logo-left{
+        width: 280px;
+    }
+
+    .absolute-logo-left p{
+        margin-top: 0;
+    }
+
+    .rules{
+        margin-top: 50px;
+    }
+
+    .rules p{
+        font-size: 16px;
+    }
+
+    .rules a{
+        margin-right: 0;
+        padding-right: 0;
+        font-size: 18px;
+    }
+
+    .fun-img-dateText {
+        font-size: 12px;
+    }
+
+    .fun-img-dateText-svgContainer{
+        width: 50%;
+    }
+
+    .fun-text p{
+        padding-bottom: 50px;
+    }
+
+    .fun-text span{
+        font-size: 32px;
+    }
+
+    .item-title{
+        font-size: 32px;
+    }
+
+    .eating-title{
+        font-size: 30px;
+    }
+
+    .vertical-content-first, .vertical-content-second{
+        display: flex;
+        flex-direction: column;
+        flex-wrap: wrap;
+    }
+
+    .vertical-content-first p{
+        font-size: 16px;
+    }
+
+    .vertical-content-second p{
+        font-size: 16px;
     }
 
     .red-container svg {
@@ -1304,33 +1534,37 @@ form input[type="submit"]:hover{
     }
 
     .leaders-content{
+        width: 90%;
         margin: auto;
-        font-size: 60px;
+    }
+
+    .leaders-content span{
+        font-size: 26px;
     }
 
     .leaders-text{
-        width: 80%;
-        font-size: 30px;
+        width: 100%;
+        font-size: 16px;
     }
 
     .foo-wrapper{
-        width: 80%;
+        width: 90%;
         margin: 0 auto;
         flex-wrap: wrap;
         text-align: center;
     }
 
     .foo-wrapper p{
-        font-size: 24px;
+        font-size: 16px;
 
     }
 
     .foo-wrapper span{
-        font-size: 36px;
+        font-size: 26px;
     }
 
     .foo-social span{
-        font-size: 36px;
+        font-size: 26px;
     }
 
 
@@ -1340,38 +1574,9 @@ form input[type="submit"]:hover{
     }
 
     .social-logo{
-        width: 80%;
+        width: 90%;
         margin: 0 auto;
         margin-top: 5%;
-    }
-
-    .social-logo a{
-        opacity: 1;
-    }
-
-    .social-logo a img{
-        width: 200%;
-        height: 200%
-    }
-
-    .facebook-logo {
-        padding: 38px 55px 35px 48px;
-        background-color: #2e3192;
-    }
-
-    .twitter-logo{
-        padding: 42px 52px 35px 42px;
-        background-color: #00aeef;
-    }
-
-    .youtube-logo{
-        padding: 41px 56px 37px 39px;
-        background-color: #ed3123;
-    }
-
-    .liked-logo{
-        padding: 39px 55px 35px 46px;
-        background-color: #171a8f;
     }
 
     .form-container{
@@ -1380,15 +1585,14 @@ form input[type="submit"]:hover{
     }
 
     form{
-        width: 70%;
+        width: 90%;
         flex-wrap: wrap;
     }
 
     form input{
         width: 100%;
         margin-bottom: 2%;
-        font-size: 40px;
-        height: 120px;
+        font-size: 16px;
     }
 
     form input[type="email"]{
@@ -1396,7 +1600,7 @@ form input[type="submit"]:hover{
     }
 
     form input[type="submit"]{
-        font-size: 40px;
+        font-size: 16px;
         opacity: 1;
     }
 }
