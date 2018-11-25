@@ -1,2 +1,2 @@
 # Fitness Page
-Link to the Page: [**Fitness**](https://dimatarhan.github.io/homework_5/)
+Link to the Page: [**Fitness**](https://dimatarhan.github.io/fitness-page/)
